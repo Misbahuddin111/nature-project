@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(nature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 25px solid white;
+    block-size: 20px;
+    border-left-color: white;
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.logo {
+    font-size: 1.5rem;
+
+    position: relative;
+    right: 10%;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    width: 20%;
+
+}
+
+.nav {
+    position: relative;
+    left: 15%;
+    padding: 5px;
+
+
+}
+
+.nav li {
+    display: inline;
+    margin: 10px;
+
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 30%;
+    padding-top: 20%;
+    margin: 10px;
+}
+
+.main h1 {
+    color: black;
+    word-spacing: 3px;
+    width: fit-content;
+
+}
+
+.main p {
+    color: black;
+    padding-left: 50px;
+    margin: 10px;
+
+}
+
+.main span {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn {
+    position: relative;
+    left: 30%;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: darkgreen;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+
+}
+
+.nav a:hover {
+    color: rgb(26, 161, 179);
+    border-bottom: 1px solid;
+}
+
+.main span:hover {
+    color: aqua;
+}
